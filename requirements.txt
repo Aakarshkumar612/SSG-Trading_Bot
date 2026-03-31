@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+joblib
+websocket-client
+requests
+python-dotenv
+fastapi
+uvicorn[standard]

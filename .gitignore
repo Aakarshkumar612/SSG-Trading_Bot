@@ -1,0 +1,50 @@
+# .gitignore — Ignore unnecessary files in version control
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+venv/
+env/
+ENV/
+
+# Data & Models
+data/*.csv
+models/*.pkl
+reports/*.csv
+reports/*.pdf
+live_data.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Render
+.render/
